@@ -1,51 +1,174 @@
 return {
     ['rdm'] = {
-        ['aby'] = {
+        ['melee'] = {
             'Haste II',
             'Protect V',
             'Shell V',
-            'Phalanx II'
+            'Phalanx II',
         },
-        ['abyself'] = {
+        ['meleemage'] = {
             'Haste II',
-            'Aquaveil',
             'Protect V',
             'Shell V',
-            'Phalanx',
-            'Composure'
+            'Phalanx II',
+            'Refresh III',
+        },
+        ['ranged'] = {
+            'Flurry II',
+            'Protect V',
+            'Shell V',
+            'Phalanx II',
         },
         ['mage'] = {
             'Haste II',
-            'Refresh II',
             'Protect V',
             'Shell V',
-            'Phalanx II'
-        },
-        ['mage2'] = {
-            'Haste II',
-            'Refresh II',
-            'Phalanx II'
-        },
-        ['melee'] = {
-            'Haste II',
             'Phalanx II',
+            'Refresh III',
+        },
+        ['selfmage'] = {
+            'Haste II',
             'Protect V',
-            'Shell V'
+            'Shell V',
+            'Refresh III',
+            'Phalanx',
+            'Ice Spikes',
+            'Gain-INT',
+            'Composure',
+        },
+        ['selfhealer'] = {
+            'Haste II',
+            'Protect V',
+            'Shell V',
+            'Refresh III',
+            'Phalanx',
+            'Ice Spikes',
+            'Aquaveil',
+            'Gain-MND',
+            'Composure',
+        },
+        ['selfsavage'] = {
+            'Haste II',
+            'Protect V',
+            'Shell V',
+            'Refresh III',
+            'Phalanx',
+            'Temper II',
+            'Gain-STR',
+            'Ice Spikes',
+            'Aquaveil',
+            'Composure',
+        },
+        ['selfcdc'] = {
+            'Haste II',
+            'Protect V',
+            'Shell V',
+            'Refresh III',
+            'Phalanx',
+            'Temper II',
+            'Gain-DEX',
+            'Ice Spikes',
+            'Aquaveil',
+            'Composure',
         },
         ['self'] = {
             'Haste II',
-            'Refresh II',
-            'Aquaveil',
             'Protect V',
             'Shell V',
-            'Phalanx',
-            'Reraise',
-            'Composure'
+            'Refresh III',
+            'Aquaveil',
+            'Composure',
         }
     },
-    ['self'] = {
-        'Haste II',
-        'Refresh II'
+    ['rdm/sch'] = {
+        ['melee'] = {
+            'Haste II',
+            'Protect V',
+            'Shell V',
+            'Phalanx II',
+        },
+        ['meleemage'] = {
+            'Haste II',
+            'Protect V',
+            'Shell V',
+            'Phalanx II',
+            'Refresh III',
+        },
+        ['ranged'] = {
+            'Flurry II',
+            'Protect V',
+            'Shell V',
+            'Phalanx II',
+        },
+        ['mage'] = {
+            'Haste II',
+            'Protect V',
+            'Shell V',
+            'Phalanx II',
+            'Refresh III',
+        },
+        ['selfmage'] = {
+            'Haste II',
+            'Protect V',
+            'Shell V',
+            'Refresh III',
+            'Phalanx',
+            'Ice Spikes',
+            'Gain-INT',
+            'Dark Arts',
+            'Klimaform',
+            'Composure',
+            'Reraise',
+        },
+        ['selfhealer'] = {
+            'Haste II',
+            'Protect V',
+            'Shell V',
+            'Refresh III',
+            'Phalanx',
+            'Ice Spikes',
+            'Aquaveil',
+            'Gain-MND',
+            'Aurorastorm',
+            'Light Arts',
+            'Addendum: White',
+            'Composure',
+            'Reraise',
+        },
+        ['selfsavage'] = {
+            'Haste II',
+            'Protect V',
+            'Shell V',
+            'Refresh III',
+            'Phalanx',
+            'Temper II',
+            'Gain-STR',
+            'Ice Spikes',
+            'Aquaveil',
+            'Composure',
+            'Reraise',
+        },
+        ['selfcdc'] = {
+            'Haste II',
+            'Protect V',
+            'Shell V',
+            'Refresh III',
+            'Phalanx',
+            'Temper II',
+            'Gain-DEX',
+            'Ice Spikes',
+            'Aquaveil',
+            'Composure',
+            'Reraise',
+        },
+        ['self'] = {
+            'Haste II',
+            'Protect V',
+            'Shell V',
+            'Refresh III',
+            'Aquaveil',
+            'Composure',
+        }
     },
     ['whm'] = {
         ['melee'] = {
@@ -64,6 +187,9 @@ return {
         ['melee'] = {
             'Haste'
         },
+        ['ranged'] = {
+            'Flurry'
+        }
         ['self'] = {
             'Haste',
             'Refresh',
@@ -86,6 +212,7 @@ return {
             'Protectra V',
             'Shellra V',
             'Reraise IV',
+            'Aurorastorm',
             'Afflatus Solace'
         }
     }
